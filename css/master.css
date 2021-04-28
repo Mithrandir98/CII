@@ -1,0 +1,9 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.nav-item .nav-link {
+  color: blue;
+}
+
+#bootstrap-overrides ul {
+  color: red;
+}
