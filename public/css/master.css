@@ -1,0 +1,77 @@
+.fonts {
+  font-family: "Open Sans", sans-serif;
+}
+
+.sticky-navbar {
+  margin: 10px;
+  padding-bottom: 100px;
+}
+
+.nav-text {
+  color: #005a98;
+  margin-top: 14px;
+}
+
+.bg-light {
+  background-color: white !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-expand-lg .navbar-collapse {
+  margin-left: auto;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #005ab5;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #005a98;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-link a,
+.navbar-light .navbar-link a:hover,
+.navbar-light .navbar-link a:focus {
+  color: #005a98;
+}
+.custom-underline {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px;
+}
+
+.custom-underline,
+.custom-underline:hover,
+.custom-underline:focus,
+.custom-underline:active {
+  color: #005a98;
+  text-decoration: none;
+}
+
+.custom-underline::after {
+  content: "";
+  position: absolute;
+}
+.box-e .custom-underline::after {
+  top: 85%;
+  height: 2px;
+  width: 0%;
+  left: 5%;
+  background-color: #005a98;
+  transition: 0.3s ease all 0.1s;
+}
+
+.box-e:hover .custom-underline::after {
+  width: 90%;
+  transition: 0.3s ease all;
+  font-weight: 600;
+}
+
+.img-fluid {
+  height: 80px;
+}
