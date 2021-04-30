@@ -1,9 +1,43 @@
+html {
+  overflow-x: hidden;
+}
+
+/* Custom Scroll Bar */
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue white;
+}
+
+/* Works on Chrome, Edge, and Safari */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 18px;
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  height: 6px;
+  border: 4px solid rgba(0, 0, 0, 0);
+  background-clip: padding-box;
+  -webkit-border-radius: 7px;
+  background-color: blue;
+  -webkit-box-shadow: inset -1px -1px 0px rgba(0, 0, 0, 0.05),
+    inset 1px 1px 0px rgba(0, 0, 0, 0.05);
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none;
+}
+::-webkit-scrollbar-corner {
+  background-color: white;
+}
+
 .fonts {
   font-family: "Open Sans", sans-serif;
 }
 
 .sticky-navbar {
-  margin: 10px;
   padding-bottom: 100px;
 }
 
