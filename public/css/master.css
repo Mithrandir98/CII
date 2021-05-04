@@ -110,9 +110,15 @@ html {
   height: 80px;
 }
 
-/* .img-fluid {
-  height: 120px;
-} */
+.img-fluid {
+  height: 820px;
+  width: 100%;
+}
+
+#myCarousel {
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
 
 .bottom-right {
   position: relative;
@@ -130,7 +136,7 @@ html {
   padding: 20px 20px 5px 20px; /* Some padding */
   top: 50%;
   left: 50%;
-  height: 18%;
+  height: 22%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
