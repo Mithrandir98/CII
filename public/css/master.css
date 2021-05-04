@@ -38,7 +38,7 @@ html {
 }
 
 .sticky-navbar {
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
 .nav-text {
@@ -106,6 +106,60 @@ html {
   font-weight: 600;
 }
 
-.img-fluid {
+.img-logo {
   height: 80px;
+}
+
+/* .img-fluid {
+  height: 120px;
+} */
+
+.bottom-right {
+  position: relative;
+  bottom: 8px;
+  cursor: pointer;
+  right: 5px;
+  left: 500px;
+}
+
+.carousel-caption {
+  position: absolute; /* Position the background text */
+  background: rgb(0, 0, 0); /*Fallback color*/
+  background: rgba(0, 0, 0, 0.5); /*Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  padding: 20px 20px 5px 20px; /* Some padding */
+  top: 50%;
+  left: 50%;
+  height: 18%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media screen {
+}
+
+.tooltip2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip2 .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  width: 120px;
+  bottom: 100%;
+  left: 545px;
+  margin-left: -60px;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip2:hover .tooltiptext {
+  visibility: visible;
 }
