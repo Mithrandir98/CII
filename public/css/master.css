@@ -172,3 +172,25 @@ html {
 .tooltip2:hover .tooltiptext {
   visibility: visible;
 }
+
+/* #mission {
+  height: 100px;
+} */
+
+._70-block {
+  width: 70%;
+  background-color: #005a98;
+  color: white;
+  padding: 100px 20px 5px 20px;
+  height: 750px;
+  vertical-align: middle;
+}
+
+.mission-text {
+  font-size: 20px;
+  text-align: left;
+  width: 70%;
+  margin-left: 110px;
+  margin-top: 10px;
+  padding: 10px;
+}
