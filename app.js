@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
 module.exports = app;
 module.exports.handler = serverless(app);
 
-app.listen(PORT, () => {
-  console.log("The value of PORT is:", process.env.PORT);
-  console.log("Listening on port " + PORT);
-});
+// app.listen(PORT, () => {
+//  console.log("The value of PORT is:", process.env.PORT);
+//  console.log("Listening on port " + PORT);
+// });
