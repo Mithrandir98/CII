@@ -1,8 +1,9 @@
 const express = require("express");
 const path = require("path");
+const serverless = require("serverless-http");
 
+const PORT = process.env.PORT || 3000;
 const app = express();
-app.set("port", process.env.PORT || 3000);
 
 app.use(
   "/css",
@@ -22,6 +23,10 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "views/index.html"));
 });
 
-app.listen(app.get("port"), () => {
-  console.log("Listening on port " + app.get("port"));
+module.exports = app;
+module.exports.handler = serverless(app);
+
+app.listen(PORT, () => {
+  console.log("The value of PORT is:", process.env.PORT);
+  console.log("Listening on port " + PORT);
 });
