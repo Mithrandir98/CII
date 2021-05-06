@@ -17,6 +17,13 @@ app.use(
   "/js",
   express.static(path.join(__dirname, "./node_modules/jquery/dist"))
 );
+app.use(
+  "/fontawesome-free/js",
+  express.static(
+    path.join(__dirname, "./node_modules/@fortawesome/fontawesome-free/js")
+  )
+);
+
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
