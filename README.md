@@ -15,7 +15,7 @@ Site upgrade for Content Integrity International using HTML, CSS, Bootstrap, JS,
 
 - [x] Add js for active class change for onclick in navbar
 
-- [ ] Add favicon for site
+- [x] Add favicon for site
 
 1. Adding media queries (making site mobile friendly)
 
