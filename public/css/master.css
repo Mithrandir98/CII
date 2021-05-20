@@ -65,9 +65,14 @@ html {
   color: #005ab5;
 }
 
+.active {
+  color: #005a98;
+  font-weight: 700;
+}
+
 .navbar-light .navbar-nav .nav-link.active {
   color: #005a98;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .navbar-light .navbar-link a,
