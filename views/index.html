@@ -88,7 +88,7 @@
         >
           <ol class="carousel-indicators">
             <div class="tooltip2">
-              <a href="#notice">
+              <a onclick="ShowAndHide()" href="#notice">
                 <img src="/images/notice.png" alt="notice" class="bottom-right"
               /></a>
               <span class="tooltiptext"
@@ -435,7 +435,7 @@
       </div>
     </section>
 
-    <section id="notice">
+    <section id="notice" style="display: none;">
       <h3 class="fonts notice-header">Received a Notice from us?</h3>
       <div class="notice-box">
         <ul class="notice-list fonts">
@@ -470,6 +470,15 @@
           .end()
           .appendTo("#slideshow");
       }, 3000);
+
+    function ShowAndHide() {
+      var x = document.getElementById('notice');
+      if (x.style.display == 'none') {
+          x.style.display = 'block';
+      } else {
+          x.style.display = 'none';
+      }
+    }
     </script>
   </body>
 </html>
