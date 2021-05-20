@@ -13,7 +13,7 @@ Site upgrade for Content Integrity International using HTML, CSS, Bootstrap, JS,
 - [x] Fix notice section, hide on load, show on click of notice image
 - [x] Fix navbar collapse button (click for collapse not working)
 
-- [ ] Add js for active class change for onclick in navbar
+- [x] Add js for active class change for onclick in navbar
 
 1. Adding media queries (making site mobile friendly)
 
