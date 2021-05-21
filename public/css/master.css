@@ -311,6 +311,11 @@ html {
   padding-top: 30px;
 }
 
+.impact-header {
+  font-size: 60px;
+  font-weight: 700;
+}
+
 .impact-text-left {
   font-size: 25px;
   width: 60%;
@@ -340,7 +345,6 @@ html {
 
 .blocks {
   display: flex;
-  margin: 10px;
   background-color: #005a98;
   color: #fff;
   padding: 10px 0px 10px 10px;
@@ -543,9 +547,32 @@ html {
     left: 50px;
   }
 
+  .services-header {
+    font-size: 50px;
+  }
+  .btn-services {
+    margin-left: 50px;
+  }
   .helpbox {
     display: block;
     margin-left: 5px;
+  }
+
+  .impact-page {
+    flex-direction: column;
+  }
+  .impact-header {
+    font-size: 50px;
+  }
+  ._30 {
+    height: 600px;
+  }
+  .impact-text-left {
+    margin-left: 20%;
+  }
+  .blocks {
+    margin: 60px 5px 5px 5px;
+    width: 98%;
   }
 
   .clients-header {
@@ -555,13 +582,6 @@ html {
     margin-left: 25%;
     font-size: 25px;
     padding: 5px;
-  }
-
-  .services-header {
-    font-size: 50px;
-  }
-  .btn-services {
-    margin-left: 50px;
   }
 
   .contact-header {
