@@ -1,4 +1,5 @@
 # CII
+
 Site upgrade for Content Integrity International using HTML, CSS, Bootstrap, JS, Node.js and Jquery.
 
 - [x] Add Landing page
@@ -24,8 +25,8 @@ Site upgrade for Content Integrity International using HTML, CSS, Bootstrap, JS,
 - [ ] Fix impact section for smaller screens
 - [ ] Fix services section for smaller screens
 - [ ] Fix clients section (text box) for smaller screens
-- [ ] Fix contact section (button) for smaller screens
-- [ ] Fix notice section (button) for smaller screens
+- [ ] Fix contact section for smaller screens
+- [x] Fix notice section for smaller screens
 
 2. Adding animations to page
 
@@ -35,5 +36,5 @@ Site upgrade for Content Integrity International using HTML, CSS, Bootstrap, JS,
 - [ ] Flow to right animation for services
 - [ ] Flow to right animation for impact
 - [ ] Fade in (different directions) animation for clients
-- [ ] Fade in animation for contact 
+- [ ] Fade in animation for contact
 - [ ] Fade in animation for notice
