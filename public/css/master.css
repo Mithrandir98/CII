@@ -551,6 +551,11 @@ html {
   .clients-header {
     font-size: 50px;
   }
+  .clients-text {
+    margin-left: 25%;
+    font-size: 25px;
+    padding: 5px;
+  }
 
   .services-header {
     font-size: 50px;
