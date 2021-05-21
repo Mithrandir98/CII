@@ -562,8 +562,14 @@ html {
   .contact-header {
     font-size: 50px;
   }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .contact-name {
+    margin-right: 10px;
+  }
   .btn-contact {
-    margin-left: 50px;
+    margin-left: 30px;
   }
 
   .notice-header {

@@ -25,7 +25,7 @@ Site upgrade for Content Integrity International using HTML, CSS, Bootstrap, JS,
 - [ ] Fix impact section for smaller screens
 - [ ] Fix services section for smaller screens
 - [ ] Fix clients section (text box) for smaller screens
-- [ ] Fix contact section for smaller screens
+- [x] Fix contact section for smaller screens
 - [x] Fix notice section for smaller screens
 
 2. Adding animations to page
