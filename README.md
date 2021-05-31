@@ -20,10 +20,10 @@ Site upgrade for Content Integrity International using HTML, CSS, Bootstrap, JS,
 
 1. Adding media queries (making site mobile friendly)
 
-- [ ] Fix landing page for small screens
-- [ ] Fix misison section for small screens
-- [ ] Fix services section for small screens
-- [ ] Fix impact section for small screens
+- [x] Fix landing page for small screens
+- [x] Fix mission section for small screens
+- [x] Fix services section for small screens
+- [x] Fix impact section for small screens
 - [x] Fix clients section (text box) for smaller screens
 - [x] Fix contact section for small screens
 - [x] Fix notice section for small screens
