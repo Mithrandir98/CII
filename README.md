@@ -41,10 +41,10 @@ Site upgrade for Content Integrity International using HTML, CSS, Bootstrap, JS,
 3. Adding animations to page
 
 - [ ] Slow scroll on button click or change of section
-- [ ] Flow up animation for landing page
-- [ ] Fade in animation for mission
-- [ ] Flow to right animation for services
-- [ ] Flow to right animation for impact
-- [ ] Fade in (different directions) animation for clients
-- [ ] Fade in animation for contact
-- [ ] Fade in animation for notice
+- [x] Flow up animation for landing page
+- [x] Fade in animation for mission
+- [x] Flow to right animation for services
+- [x] Flow to right animation for impact
+- [x] Fade in (different directions) animation for clients
+- [x] Fade in animation for contact
+- [x] Fade in animation for notice
