@@ -534,7 +534,7 @@ html {
   margin: 10px 0px 30px 1600px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 449px) {
   .nav-text {
     font-size: 15px;
     width: 10%;
@@ -671,6 +671,167 @@ html {
   }
   .contact-info {
     flex-wrap: wrap;
+  }
+  .btn-contact {
+    margin-left: 30px;
+    font-size: 20px;
+  }
+
+  .notice-header {
+    font-size: 40px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .notice-box {
+    margin-left: 10px;
+  }
+  .btn-notice {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 600px) {
+  .nav-text {
+    font-size: 15px;
+    width: 10%;
+  }
+  .img-logo {
+    height: 70px;
+  }
+  .img-fluid {
+    width: 100%;
+    height: 700px;
+  }
+  .carousel-caption {
+    padding: 5px;
+    height: 30%;
+  }
+  .caption-header {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .caption-text {
+    font-size: 10px;
+  }
+  .bottom-right {
+    left: 150px;
+  }
+
+  .our-mission {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  ._70-block {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 700px;
+  }
+  .mission-header {
+    font-size: 40px;
+  }
+  .mission-text {
+    font-size: 21px;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 90%;
+    text-align: center;
+  }
+  ._30-block {
+    padding-left: 10%;
+  }
+  #slideshow {
+    padding-left: 0px;
+    height: 350px;
+  }
+  .image-slideshow {
+    height: 400px;
+    width: 450px;
+  }
+
+  .services-header {
+    font-size: 40px;
+  }
+  .icons {
+    font-size: 3em;
+    margin-top: 35px;
+  }
+  .card-deck {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .card-text {
+    margin-top: 2px;
+    font-size: 15px;
+  }
+  .help {
+    font-size: 30px;
+  }
+  .btn-services {
+    margin-left: 35%;
+    font-size: 15px;
+  }
+  .helpbox {
+    display: block;
+    margin-left: 5px;
+  }
+
+  .impact-page {
+    flex-direction: column;
+  }
+  .impact-header {
+    font-size: 40px;
+  }
+  ._30 {
+    height: 400px;
+  }
+  .impact-text-left {
+    margin-left: 20%;
+    padding: 2px;
+    font-size: 21px;
+  }
+  .blocks {
+    margin: 60px 5px 5px 5px;
+    width: 98%;
+  }
+  .impact-title {
+    font-size: 21px;
+  }
+  .icons-impact {
+    font-size: 3em;
+  }
+  .impact-numbers {
+    font-size: 28px;
+  }
+  .impact-text {
+    font-size: 15px;
+    margin: 0px 5px 0px 0px;
+    padding: 5px 5px 0px 0px;
+  }
+
+  .clients-header {
+    font-size: 40px;
+  }
+  .clients-text {
+    margin-left: 25%;
+    font-size: 25px;
+    padding: 5px;
+  }
+
+  .contact-header {
+    font-size: 40px;
+  }
+  .contact-form {
+    margin-left: 10px;
+  }
+  .contact-name {
+    margin-right: 10px;
+  }
+  .icon-contact {
+    font-size: 3em;
+  }
+  .contact-info {
+    flex-wrap: wrap;
+    margin-left: 5%;
   }
   .btn-contact {
     margin-left: 30px;
