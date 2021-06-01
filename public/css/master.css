@@ -1,8 +1,13 @@
 html {
   overflow-x: hidden;
   background-color: #f2f2f2;
+  scroll-behavior: smooth;
 }
-
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
 /* Custom Scroll Bar */
 /* Works on Firefox */
 * {
@@ -194,7 +199,7 @@ html {
 }
 
 .mission-header {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
 }
 
@@ -246,7 +251,7 @@ html {
 }
 
 .services-header {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   color: #005a98;
   text-align: center;
@@ -317,7 +322,7 @@ html {
 }
 
 .impact-header {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
 }
 
@@ -388,7 +393,7 @@ html {
 }
 
 .clients-header {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   color: #005a98;
   text-align: center;
@@ -435,7 +440,7 @@ html {
 }
 
 .contact-header {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   color: #005a98;
   text-align: center;
@@ -492,6 +497,7 @@ html {
 
 .icon-contact {
   font-size: 5em;
+  margin-left: 20px;
 }
 
 .contact-email-info {
@@ -501,7 +507,8 @@ html {
 
 .btn-contact {
   display: flex;
-  margin: 0px 0px 0px 850px;
+  font-size: 25px;
+  margin: 0px 0px 0px 830px;
 }
 
 #notice {
@@ -509,7 +516,7 @@ html {
 }
 
 .notice-header {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   color: #005a98;
   text-align: center;
@@ -518,20 +525,30 @@ html {
 
 .notice-box {
   margin-top: 20px;
-  width: 90%;
-  margin-left: 100px;
+  width: 95%;
+  margin-left: 30px;
 }
 
 .notice-list {
   color: #005a98;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 20px;
+  text-align: justify;
 }
 
 .btn-notice {
   font-size: 20px;
   border-radius: 25px;
   margin: 10px 0px 30px 1600px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  color: rgb(78, 78, 78);
+  text-align: center;
 }
 
 @media only screen and (max-width: 449px) {
@@ -548,7 +565,7 @@ html {
   }
 
   .tooltip2 .tooltiptext {
-    left: 100%;
+    left: 160%;
   }
 
   .carousel-caption {
@@ -563,7 +580,7 @@ html {
     font-size: 10px;
   }
   .bottom-right {
-    left: 50px;
+    left: 110%;
   }
 
   .our-mission {

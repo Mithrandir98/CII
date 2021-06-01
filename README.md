@@ -40,11 +40,18 @@ Site upgrade for Content Integrity International using HTML, CSS, Bootstrap, JS,
 
 3. Adding animations to page
 
-- [ ] Slow scroll on button click or change of section
+- [x] Slow scroll on button click or change of section
 - [x] Flow up animation for landing page
 - [x] Fade in animation for mission
 - [x] Flow to right animation for services
-- [x] Flow to right animation for impact
+- [ ] Flow to right animation for impact
 - [x] Fade in (different directions) animation for clients
 - [x] Fade in animation for contact
 - [x] Fade in animation for notice
+
+- [ ] Logo on navbar needs to be sharper
+- [x] Notice on phones needs to be fixed (align)
+- [ ] Impact headers go on top center, replace the headers with case 1,2,3 and the text with outcome 1,2,3
+- [ ] CLients logos need to be sharper
+- [x] Contact us logo and button to be aligned into frame of form
+- [x] © 2021, Copyright Integrity International. All rights reserved. Footer centered
