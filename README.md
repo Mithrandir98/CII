@@ -18,6 +18,13 @@ Site upgrade for Content Integrity International using HTML, CSS, Bootstrap, JS,
 
 - [x] Add favicon for site
 
+- [x] Logo on navbar needs to be sharper
+- [x] Notice on phones needs to be fixed (align)
+- [x] Impact headers go on top center, replace the headers with case 1,2,3 and the text with outcome 1,2,3
+- [x] CLients logos need to be sharper
+- [x] Contact us logo and button to be aligned into frame of form
+- [x] © 2021, Copyright Integrity International. All rights reserved. Footer centered
+
 1. Adding media queries (making site mobile friendly)
 
 - [x] Fix landing page for small screens
@@ -44,14 +51,7 @@ Site upgrade for Content Integrity International using HTML, CSS, Bootstrap, JS,
 - [x] Flow up animation for landing page
 - [x] Fade in animation for mission
 - [x] Flow to right animation for services
-- [ ] Flow to right animation for impact
+- [x] Flow to right animation for impact
 - [x] Fade in (different directions) animation for clients
 - [x] Fade in animation for contact
 - [x] Fade in animation for notice
-
-- [ ] Logo on navbar needs to be sharper
-- [x] Notice on phones needs to be fixed (align)
-- [ ] Impact headers go on top center, replace the headers with case 1,2,3 and the text with outcome 1,2,3
-- [ ] CLients logos need to be sharper
-- [x] Contact us logo and button to be aligned into frame of form
-- [x] © 2021, Copyright Integrity International. All rights reserved. Footer centered
