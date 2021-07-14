@@ -1181,17 +1181,24 @@ body {
     font-size: 50px;
   }
   .icons {
-    font-size: 5em;
-    margin-top: 70px;
+    font-size: 6em;
+    margin-top: 50px;
   }
   .card-deck {
     margin-left: 20px;
     margin-right: 10px;
   }
-  .card-text {
-    margin-top: 60px;
-    font-size: 18px;
+  .card-deck .card {
+    height: 200px;
   }
+  .card-text {
+    margin-top: 15%;
+    font-size: 20px;
+  }
+  .card-text1 {
+    margin-top: 20%;
+  }
+
   .help {
     font-size: 40px;
   }
@@ -1311,16 +1318,22 @@ body {
     font-size: 50px;
   }
   .icons {
-    font-size: 5em;
-    margin-top: 70px;
+    font-size: 6em;
+    margin-top: 50px;
   }
   .card-deck {
     margin-left: 20px;
     margin-right: 10px;
   }
+  .card-deck .card {
+    height: 200px;
+  }
   .card-text {
-    margin-top: 60px;
-    font-size: 18px;
+    margin-top: 15%;
+    font-size: 20px;
+  }
+  .card-text1 {
+    margin-top: 20%;
   }
   .help {
     font-size: 40px;
@@ -1442,15 +1455,21 @@ body {
   }
   .icons {
     font-size: 6em;
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .card-deck {
     margin-left: 20px;
     margin-right: 10px;
   }
+  .card-deck .card {
+    height: 200px;
+  }
   .card-text {
-    margin-top: 25%;
+    margin-top: 15%;
     font-size: 20px;
+  }
+  .card-text1 {
+    margin-top: 20%;
   }
   .help {
     font-size: 40px;
